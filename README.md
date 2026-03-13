@@ -19,7 +19,7 @@ It summarizes the purpose of the repository, shows how the major artifacts relat
 
 The **Portfolio Governance System** explains how organizations translate strategy into governed investment rather than relying on ad hoc prioritization or disconnected planning activity. 
 
-It shows how organizations move from: **strategic direction → initiative evaluation → prioritization → funding → portfolio review → rebalancing** through a disciplined governance system. 
+It shows how organizations govern the movement from **strategic direction → initiative evaluation → prioritization → funding → portfolio review → rebalancing** through a disciplined governance system.
 
 Within the broader **Product Leadership Operating System**, Pillar 3 is responsible for the system that governs investment decisions across the operating loop. 
 
@@ -38,19 +38,19 @@ flowchart TB
     B[Portfolio Governance System]
     C[Product Delivery System]
     D[Customer Outcomes System]
-    J[Learning and Strategic Adjustment]
+    L[Learning]
 
     A -->|Strategic priorities and intent| B
     B -->|Governed investment decisions| C
     C -->|Execution evidence and progress| D
-    D -->|Outcome evidence| J
-    J -->|Strategic and portfolio adjustment| A
+    D -->|Outcome evidence| L
+    L -->|Strategic adjustment| A
 
     E[Decision Intelligence System]
     E -.Decision support.-> B
     E -.Decision support.-> C
     E -.Decision support.-> D
-    E -.Decision support.-> J
+    E -.Decision support.-> L
 
     F[Initiative Evaluation]
     G[Prioritization and Sequencing]
@@ -90,80 +90,86 @@ This repository does **not** redefine the architecture. It operates subordinate 
 ```mermaid
 flowchart TB
 
-    ROOT[Portfolio Governance System]
+    ROOT[Portfolio Governance System Repository]
 
-    subgraph CANONICAL[Canonical Source]
-        A1[Portfolio Governance System]
+    subgraph CANONICAL[Canonical Architecture Sources]
+        U1[Unified Portfolio Governance System]
+        U2[Portfolio Governance System]
     end
 
-    subgraph SUPPORTING[Planned Supporting Artifacts]
+    subgraph SUPPORTING[Supporting Governance Artifacts]
         B1[Portfolio Review Model]
         B2[Investment Decision Model]
         B3[Prioritization Framework]
         B4[Governance Decision Rights]
     end
 
-    subgraph FRAMEWORKS[Planned Supporting Frameworks]
+    subgraph FRAMEWORKS[Supporting Frameworks]
         C1[Portfolio Governance Maturity Model]
     end
 
-    subgraph DIAGRAMS[Planned Supporting Diagram Artifacts]
+    subgraph DIAGRAMS[Supporting Diagram Artifacts]
         D1[Portfolio Governance System Diagram]
         D2[Governance Decision Flow Diagram]
         D3[Portfolio Review Cycle Diagram]
     end
 
-    ROOT --> A1
-    A1 --> B1
-    A1 --> B2
-    A1 --> B3
-    A1 --> B4
-    A1 --> C1
-    A1 --> D1
-    A1 --> D2
-    A1 --> D3
-``` 
+    ROOT --> U1
+    ROOT --> U2
+    U1 --> U2
+    U1 --> B1
+    U1 --> B2
+    U1 --> B3
+    U1 --> B4
+    U1 --> C1
+    U1 --> D1
+    U1 --> D2
+    U1 --> D3
+```
 
---- 
+---
 
 # Core Repository Artifacts
 
 This repository contains the core artifacts that define how organizations govern portfolio investment through evaluation, prioritization, sequencing, funding, review, and rebalancing.
 
-## Canonical Source Artifact
+## Canonical Architecture Sources
+
+- **Unified Portfolio Governance System**  
+  Defines the canonical internal architecture of the **Portfolio Governance System** and serves as the highest-precedence Pillar 3 source for governance system structure.
 
 - **Portfolio Governance System**  
-  Defines the canonical Pillar 3 governance system used to translate strategy into governed portfolio action.
+  Defines the canonical Pillar 3 governance system in repository-facing form and operates subordinate to the unified architecture source.
 
-## Planned Supporting Artifacts
+## Supporting Governance Artifacts
 
 - **Portfolio Review Model**  
   Defines the recurring review structure used to assess portfolio commitments, performance, and change decisions.
 
 - **Investment Decision Model**  
-  Defines the governing logic used to evaluate, approve, defer, or reject investment choices.
+  Defines the governing logic used to evaluate, approve, defer, stage, reshape, or reject investment choices.
 
 - **Prioritization Framework**  
-  Defines the structure used to compare competing initiatives and determine portfolio order and relative importance.
+  Defines the comparative logic used to rank and sequence competing portfolio investments.
 
 - **Governance Decision Rights**  
-  Defines the allocation of decision authority across governance roles, forums, and review levels.
+  Defines decision authority allocation across major portfolio governance decisions.
 
-## Planned Supporting Frameworks
+## Supporting Frameworks
 
 - **Portfolio Governance Maturity Model**  
-  Defines how governance capability evolves from informal prioritization toward structured, evidence-based portfolio governance.
+  Defines the staged progression through which portfolio governance matures from fragmented governance activity to integrated and adaptive portfolio control.
 
-## Planned Supporting Diagram Artifacts
+## Supporting Diagram Artifacts
 
 - **Portfolio Governance System Diagram**  
-  Visualizes the role of the governance system within the canonical five-system architecture.
+  Visualizes the structure of the **Portfolio Governance System** within the broader operating system.
 
 - **Governance Decision Flow Diagram**  
-  Visualizes how investment decisions move from evaluation through approval, allocation, review, and adjustment.
+  Visualizes the end-to-end movement of portfolio decisions through intake, evaluation, prioritization, commitment, review, and rebalance.
 
 - **Portfolio Review Cycle Diagram**  
-  Visualizes the recurring review and rebalancing loop used to sustain portfolio governance over time.
+  Visualizes the recurring review loop used to sustain active portfolio governance over time.
 
 --- 
 
@@ -235,12 +241,13 @@ It is an executive portfolio governance architecture library within the **Produc
 
 Use this repository in the following order:
 
-1. Start with **Portfolio Governance System** for the canonical Pillar 3 definition.
-2. Review **Investment Decision Model** and **Prioritization Framework** to understand how investment choices are evaluated and ordered.
-3. Review **Governance Decision Rights** to understand how authority is distributed across governance decisions.
-4. Review **Portfolio Review Model** to understand how portfolio commitments are reassessed and adjusted over time.
-5. Review **Portfolio Governance Maturity Model** to understand governance capability progression.
-6. Use the supporting diagram artifacts for visual orientation and cross-repository consistency.
+1. Start with **Unified Portfolio Governance System** for the highest-precedence Pillar 3 architecture source.
+2. Then review **Portfolio Governance System** for the repository-facing canonical Pillar 3 definition.
+3. Review **Investment Decision Model** and **Prioritization Framework** to understand how investment choices are evaluated and ordered.
+4. Review **Governance Decision Rights** to understand how authority is distributed across governance decisions.
+5. Review **Portfolio Review Model** to understand how portfolio commitments are reassessed and adjusted over time.
+6. Review **Portfolio Governance Maturity Model** to understand governance capability progression.
+7. Use the supporting diagram artifacts for visual orientation and cross-repository consistency.
 
 This sequence preserves architectural precedence while improving interpretability.
 
