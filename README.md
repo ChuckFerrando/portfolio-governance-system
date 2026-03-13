@@ -61,10 +61,10 @@ flowchart TB
     G --> B
     H --> B
     I --> B
- ```
+```
 
- --- 
- 
+---
+
 # Repository Purpose
 
 The purpose of this repository is to define the system through which strategic priorities become governed portfolio investment.
@@ -83,7 +83,7 @@ Taken together, these artifacts explain how organizations maintain disciplined i
 
 This repository does **not** redefine the architecture. It operates subordinate to the higher-precedence Pillar 1 architectural sources.
 
---- 
+---
 
 # Pillar 3 Artifact Map
 
@@ -171,7 +171,7 @@ This repository contains the core artifacts that define how organizations govern
 - **Portfolio Review Cycle Diagram**  
   Visualizes the recurring review loop used to sustain active portfolio governance over time.
 
---- 
+---
 
 # Repository Structure
 
@@ -188,7 +188,7 @@ Artifacts are organized into the following directories:
 
 This structure keeps the repository navigable while preserving the distinction between canonical architecture, supporting frameworks, operating artifacts, and visual documentation.
 
---- 
+---
 
 # Relationship to the Product Leadership Operating System
 
@@ -208,9 +208,9 @@ In simple terms:
 - **Customer Outcomes System** evaluates realized results
 - **Decision Intelligence System** supports decisions across the full architecture
 
-This repository should therefore be read together with the Pillar 1 architecture repository and, where relevant, alongside Pillar 2 operating-model artifacts that explain how governance is run in practice. 
+This repository should therefore be read together with the Pillar 1 architecture repository and, where relevant, alongside Pillar 2 operating-model artifacts that explain how governance is run in practice.
 
---- 
+---
 
 # Documentation Standard
 
@@ -235,7 +235,7 @@ This repository is intentionally **not**:
 
 It is an executive portfolio governance architecture library within the **Product Leadership Operating System**.
 
---- 
+---
 
 # How To Navigate This Repository
 
@@ -251,8 +251,8 @@ Use this repository in the following order:
 
 This sequence preserves architectural precedence while improving interpretability.
 
---- 
+---
 
-# License 
+# License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
