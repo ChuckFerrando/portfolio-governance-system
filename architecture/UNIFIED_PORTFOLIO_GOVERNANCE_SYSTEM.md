@@ -165,17 +165,17 @@ The result is predictable: too many initiatives, weak tradeoff discipline, hidde
 
 The **Unified Portfolio Governance System** matters because it prevents governance from becoming a collection of disconnected practices. It defines portfolio governance as an integrated operating system with clear internal logic and clear interfaces to the broader product leadership architecture.
 
-This matters for several reasons.
+This artifact matters for five reasons.
 
 First, it creates consistency. Supporting governance artifacts such as decision rights, prioritization frameworks, review models, and maturity models can only remain coherent if they anchor to a shared canonical governance architecture.
 
-Second, it improves decision quality. When intake, evaluation, prioritization, authority, review, and rebalancing are treated as part of one system, organizations make better investment decisions and can explain those decisions more clearly.
+Second, it improves decision quality. When intake, evaluation, prioritization, sequencing, authority, review, and rebalancing are treated as part of one system, organizations make better investment decisions and can explain those decisions more clearly.
 
-Third, it improves execution quality. Delivery teams are more effective when they receive governed commitments instead of unstable, weakly justified, or politically-driven demand.
+Third, it improves execution quality. Delivery teams are more effective when they receive governed commitments instead of unstable, weakly justified, or politically driven demand.
 
 Fourth, it improves strategic adaptability. A portfolio can only be adjusted intelligently if governance includes review and rebalance mechanisms, not just front-end approval structures.
 
-Finally, it improves architectural integrity across the **Product Leadership Operating System**. Without a canonical governance architecture, the connection between strategy and delivery becomes unstable, and the operating system loses coherence.
+Fifth, it strengthens architectural integrity across the **Product Leadership Operating System**. Without a canonical governance architecture, the connection between strategy and delivery becomes unstable, and the operating system loses coherence.
 
 ---
 
