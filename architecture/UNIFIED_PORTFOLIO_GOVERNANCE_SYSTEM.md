@@ -240,17 +240,17 @@ It should always be maintained in a way that preserves those distinctions.
 
 ## Summary
 
-The **Unified Portfolio Governance System** defines the canonical governance architecture for how product organizations evaluate, prioritize, authorize, review, and rebalance investments across the portfolio.
+The **Unified Portfolio Governance System** defines the canonical governance architecture for how product organizations evaluate, prioritize, sequence, fund, review, and rebalance investments across the portfolio.
 
-It establishes portfolio governance as a coherent operating system rather than a loose collection of meetings, intake processes, prioritization exercises, and funding decisions.
+It establishes portfolio governance as a coherent operating system rather than a loose collection of intake processes, prioritization exercises, funding decisions, and review meetings.
 
-By connecting strategy inputs, initiative intake, evaluation logic, prioritization, decision authority, portfolio review, and adaptive rebalancing, this artifact defines how governed portfolio commitments are created and maintained before work enters delivery.
+By connecting strategy inputs, initiative intake, evaluation logic, prioritization and sequencing, decision authority, funding logic, portfolio review, and adaptive rebalancing, this artifact defines how governed portfolio commitments are created, maintained, and adjusted before and during delivery execution.
 
 It also clarifies the role of the **Decision Intelligence System** as a cross-cutting support layer that improves governance quality without changing governance authority.
 
-Within the broader **Product Leadership Operating System**, this artifact serves as the canonical source for the internal architecture of the **Portfolio Governance System** and provides the reference point that all supporting governance artifacts should align to.
+Within the broader **Product Leadership Operating System**, this artifact serves as the canonical source for the internal architecture of the **Portfolio Governance System** and provides the reference point to which all supporting governance artifacts should align.
 
-Its purpose is not only explanatory, but also architectural: to preserve consistency, reduce fragmentation, strengthen decision discipline, and maintain coherence between strategy, governance, and delivery across the portfolio.
+Its purpose is both explanatory and architectural: to preserve consistency, reduce fragmentation, strengthen decision discipline, and maintain coherence between strategy, governance, and delivery across the portfolio.
 
 ---
 
