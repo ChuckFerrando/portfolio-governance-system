@@ -12,7 +12,7 @@ Within the canonical five-system architecture, the **Portfolio Governance System
 
 Where the **Strategy Execution System** defines direction, the **Portfolio Governance System** governs how that direction becomes funded, prioritized, sequenced, and monitored across the portfolio. This artifact defines the repository-facing canonical Pillar 3 governance system and operates subordinate to the higher-precedence **Unified Portfolio Governance System**. It defines the governing logic of portfolio decision-making, but it does not redefine the broader five-system architecture.
 
-This artifact is the canonical source document for **Pillar 3: Portfolio Governance System**. It defines the governing logic of portfolio decision-making, but it does not redefine the broader five-system architecture.
+This artifact serves as the repository-facing canonical Pillar 3 governance definition and operates subordinate to the higher-precedence **Unified Portfolio Governance System**.
 
 ---
 
