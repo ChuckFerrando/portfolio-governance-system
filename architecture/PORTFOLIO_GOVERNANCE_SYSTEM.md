@@ -10,7 +10,7 @@ The **Portfolio Governance System** defines how organizations govern investment 
 
 Within the canonical five-system architecture, the **Portfolio Governance System** is the system responsible for converting strategic intent into governed portfolio decisions. It determines how initiatives are evaluated, how investment choices are made, how tradeoffs are managed, how resources are allocated, and how portfolio direction is adjusted over time.
 
-Where the **Strategy Execution System** defines direction, the **Portfolio Governance System** governs how that direction becomes funded, prioritized, sequenced, and monitored across the portfolio.
+Where the **Strategy Execution System** defines direction, the **Portfolio Governance System** governs how that direction becomes funded, prioritized, sequenced, and monitored across the portfolio. This artifact defines the repository-facing canonical Pillar 3 governance system and operates subordinate to the higher-precedence **Unified Portfolio Governance System**. It defines the governing logic of portfolio decision-making, but it does not redefine the broader five-system architecture.
 
 This artifact is the canonical source document for **Pillar 3: Portfolio Governance System**. It defines the governing logic of portfolio decision-making, but it does not redefine the broader five-system architecture.
 
@@ -43,19 +43,19 @@ flowchart TB
     B[Portfolio Governance System]
     C[Product Delivery System]
     D[Customer Outcomes System]
-    J[Learning and Strategic Adjustment]
+    L[Learning]
 
     A -->|Strategic priorities and intent| B
     B -->|Governed investment decisions| C
     C -->|Execution evidence and progress| D
-    D -->|Outcome evidence| J
-    J -->|Strategic and portfolio adjustment| A
+    D -->|Outcome evidence| L
+    L -->|Strategic adjustment| A
 
     E[Decision Intelligence System]
     E -.Decision support.-> B
     E -.Decision support.-> C
     E -.Decision support.-> D
-    E -.Decision support.-> J
+    E -.Decision support.-> L
 
     F[Initiative Evaluation]
     G[Prioritization and Sequencing]
@@ -153,7 +153,7 @@ By defining this system explicitly, the artifact helps prevent portfolio sprawl,
 
 # How To Use This
 
-Use this artifact as the canonical definition of **Pillar 3: Portfolio Governance System**.
+Use this artifact as the repository-facing canonical definition of **Pillar 3: Portfolio Governance System**, subordinate to the higher-precedence **Unified Portfolio Governance System**.
 
 It is most useful when:
 
@@ -202,7 +202,7 @@ This artifact may define governance system logic, but it may not redefine the ca
 
 The **Portfolio Governance System** defines how strategic priorities are translated into governed portfolio investment through evaluation, prioritization, sequencing, funding, review, and rebalancing.
 
-It serves as the canonical Pillar 3 source artifact for portfolio decision-making within the **Product Leadership Operating System**.
+It serves as the repository-facing canonical Pillar 3 source artifact for portfolio decision-making within the **Product Leadership Operating System**, subordinate to the higher-precedence **Unified Portfolio Governance System**.
 
 It reinforces that governed investment is a distinct system responsibility rather than an informal planning activity or a downstream delivery concern.
 
