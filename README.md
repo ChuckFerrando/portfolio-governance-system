@@ -212,6 +212,30 @@ This repository should therefore be read together with the Pillar 1 architecture
 
 ---
 
+## Outcome Input Rule
+
+The **Portfolio Governance System** does not act directly on raw outcome signals, dashboards, or unevaluated metric movement.
+
+Governance decisions must be informed through **structured learning** and **intervention framing** originating from the **Customer Outcomes System**.
+
+The **Customer Outcomes System** provides:
+
+- evaluated outcome understanding  
+- identified gaps  
+- learning signals  
+- routed intervention inputs  
+
+The **Portfolio Governance System** determines:
+
+- prioritization  
+- tradeoffs  
+- sequencing  
+- investment decisions  
+
+> Outcomes informs governance through structured learning and framed response inputs. Governance retains decision ownership.
+
+---
+
 # Documentation Standard
 
 All repositories in this portfolio follow a common architecture-documentation standard.
