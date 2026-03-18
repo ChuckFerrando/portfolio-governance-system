@@ -107,6 +107,20 @@ Finally, the feedback paths from **Portfolio Review and Monitoring** and **Rebal
 
 ---
 
+## Outcome Interface Rule
+
+The **Portfolio Governance System** does not act directly on raw signals or dashboards.
+
+All outcome-driven inputs must be routed through the **Customer Outcomes System** as:
+
+- structured learning  
+- evaluated outcomes  
+- framed intervention inputs  
+
+This ensures governance decisions are based on evaluated reality rather than unprocessed signal movement.
+
+---
+
 ## Operating Logic
 
 The **Portfolio Governance System** operates as the disciplined decision layer between strategic direction and delivery execution.
