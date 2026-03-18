@@ -111,6 +111,23 @@ Throughout this cycle, the **Decision Intelligence System** improves governance 
 
 ---
 
+## Relationship to the Customer Outcomes System
+
+The **Portfolio Governance System** may be informed by outcome learning, but it must not respond directly to raw metrics or unevaluated outcome signals.
+
+Inputs from Pillar 5 should arrive as:
+
+- structured learning  
+- outcome gap framing  
+- intervention inputs requiring governance consideration  
+
+This preserves the distinction between:
+
+- **Outcomes** → evaluation and learning generation  
+- **Governance** → prioritization and tradeoff decisions
+
+---
+
 # Supporting Diagram
 
 ```mermaid
